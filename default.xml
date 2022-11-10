@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="wnc"
+           fetch="ubuntu@ec2-34-244-73-76.eu-west-1.compute.amazonaws.com"
+  <default revision="master"
+           remote="wnc"
+           sync-j="4" />
+
+  <project path="hello" name="hello" groups="pdk" />
+</manifest>
