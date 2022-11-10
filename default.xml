@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="wnc"
-          fetch="ssh://ubuntu@ec2-34-244-73-76.eu-west-1.compute.amazonaws.com" />
+          fetch="ssh://mirror@ec2-34-244-73-76.eu-west-1.compute.amazonaws.com" />
   <remote  name="aosp"
           fetch="https://github.com/zael13" />
   <default revision="master"
